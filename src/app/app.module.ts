@@ -16,6 +16,9 @@ import { TodoComponent } from './apps/todo-list/todo/todo.component';
 import { SpinnerComponent } from './shared/spinner/spinner.component';
 import { ContentAnimateDirective } from './shared/directives/content-animate.directive';
 import { TodoListComponent } from './apps/todo-list/todo-list.component';
+import { SalleComponent } from './salle-pages/salle/salle.component';
+import { LoueurComponent } from './account-pages/loueur/loueur.component';
+import { ClientComponent } from './account-pages/client/client.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +30,10 @@ import { TodoListComponent } from './apps/todo-list/todo-list.component';
     TodoListComponent,
     TodoComponent,
     SpinnerComponent,
-    ContentAnimateDirective
+    ContentAnimateDirective,
+    SalleComponent,
+    LoueurComponent,
+    ClientComponent,
   ],
   imports: [
     BrowserModule,

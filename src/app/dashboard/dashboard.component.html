@@ -26,7 +26,7 @@
     </ul> 
   </nav>
 </div>
-<div class="row">
+<!-- <div class="row">
   <div class="col-md-4 stretch-card grid-margin">
     <div class="card bg-gradient-danger card-img-holder text-white">
       <div class="card-body">
@@ -63,8 +63,170 @@
       </div>
     </div>
   </div>
-</div>
+</div> -->
+
 <div class="row">
+  <div class="col-md-7 grid-margin stretch-card">
+    <div class="card">
+      <div class="card-body">
+        <h4 class="card-title">Nouvelles propositions de salles</h4>
+        <div class="table-responsive">
+          <table class="table">
+            <thead>
+              <tr>
+                <th>
+                  #
+                </th>
+                <th>
+                  Loueur
+                </th>
+                <th>
+                  Date de la demande
+                </th>
+                <th>
+                  Salle
+                </th>
+                <th>
+                  Consulter
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  1
+                </td>
+                <td>
+                  Herman Beck
+                </td>
+                <td>
+                  May 15, 2015
+                </td>
+                <td>
+                  Palace center, <i>Eyang</i>
+                </td>
+                <th>
+                  <a href="#">Consulter</a>
+                </th>
+              </tr>
+              <tr>
+                <td>
+                  2
+                </td>
+                <td>
+                  Messsy Adam
+                </td>
+                <td>
+                  Jul 01, 2015
+                </td>
+                <td>
+                  Palace center, <i>Eyang</i>
+                </td>
+                <th>
+                  <a href="#">Consulter</a>
+                </th>
+              </tr>
+              <tr>
+                <td>
+                  3
+                </td>
+                <td>
+                  John Richards
+                </td>
+                <td>
+                  Apr 12, 2015
+                </td>
+                <td>
+                  Palace center, <i>Eyang</i>
+                </td>
+                <th>
+                  <a href="#">Consulter</a>
+                </th>
+              </tr>
+              <tr>
+                <td>
+                  4
+                </td>
+                <td>
+                  Peter Meggik
+                </td>
+                <td>
+                  May 15, 2015
+                </td>
+                <td>
+                  Palace center, <i>Eyang</i>
+                </td>
+                <th>
+                  <a href="#">Consulter</a>
+                </th>
+              </tr>
+              <tr>
+                <td>
+                  5
+                </td>
+                <td>
+                  Edward
+                </td>
+                <td>
+                  May 03, 2015
+                </td>
+                <td>
+                  Palace center, <i>Eyang</i>
+                </td>
+                <th>
+                  <a href="#">Consulter</a>
+                </th>
+              </tr>
+              <tr>
+                <td>
+                  5
+                </td>
+                <td>
+                  Ronald
+                </td>
+                <td>
+                  Jun 05, 2015
+                </td>
+                <td>
+                  Palace center, <i>Eyang</i>
+                </td>
+                <th>
+                  <a href="#">Consulter</a>
+                </th>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-5 grid-margin stretch-card">
+    <div class="card">
+      <div class="card-body">
+        <h4 class="card-title">Traffic Sources</h4>
+        <canvas baseChart [chartType]="'doughnut'" [datasets]="trafficChartData" [labels]="trafficChartLabels" [options]="trafficChartOptions" [colors]="trafficChartColors"></canvas>
+        <div id="traffic-chart-legend" class="rounded-legend legend-vertical legend-bottom-left pt-4">
+          <ul>
+            <li>
+              <span class="legend-dots"></span>Search Engines
+              <span class="float-right">30%</span>
+            </li>
+            <li>
+              <span class="legend-dots"></span>Direct Click
+              <span class="float-right">30%</span>
+            </li>
+            <li>
+              <span class="legend-dots"></span>Bookmarks Click
+              <span class="float-right">40%</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>  
+</div>
+
+<!-- <div class="row">
   <div class="col-lg-7 grid-margin stretch-card">
     <div class="card">
       <div class="card-body">
@@ -112,8 +274,8 @@
       </div>
     </div>
   </div>  
-</div>
-<div class="row">
+</div> -->
+<!-- <div class="row">
   <div class="col-12 grid-margin">
     <div class="card">
       <div class="card-body">
@@ -218,8 +380,115 @@
       </div>
     </div>
   </div>
-</div>
+</div> -->
+
 <div class="row">
+  <div class="col-12 grid-margin">
+    <div class="card">
+      <div class="card-body">
+        <h4 class="card-title">Recent Reservations activities</h4>
+        <div class="table-responsive">
+          <table class="table">
+            <thead>
+              <tr>
+                <th>
+                  Client
+                </th>
+                <th>
+                  Salle
+                </th>
+                <th>
+                  Status
+                </th>
+                <th>
+                  Loueur
+                </th>
+                <th>
+                  Période (jour)
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  <img src="assets/images/faces/face1.jpg" class="mr-2" alt="image">
+                  David Grey
+                </td>
+                <td>
+                  Salle des fêtes, <i>Eyang</i>
+                </td>
+                <td>
+                  <label class="badge badge-gradient-success">Réservée (en cours)</label>
+                </td>
+                <td>
+                  Mengue Julien
+                </td>
+                <td>
+                  Dec 5, 2017
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <img src="assets/images/faces/face2.jpg" class="mr-2" alt="image">
+                  Stella Johnson
+                </td>
+                <td>
+                  Salle des fêtes, <i>Eyang</i>
+                </td>
+                <td>
+                  <label class="badge badge-gradient-success">Réservée (en cours)</label>
+                </td>
+                <td>
+                  Mengue Julien
+                </td>
+                <td>
+                  Dec 5, 2017
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <img src="assets/images/faces/face3.jpg" class="mr-2" alt="image">
+                  Marina Michel
+                </td>
+                <td>
+                  Salle des fêtes, <i>Eyang</i>
+                </td>
+                <td>
+                  <label class="badge badge-gradient-success">Réservée (en cours)</label>
+                </td>
+                <td>
+                  Mengue Julien
+                </td>
+                <td>
+                  Dec 5, 2017
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <img src="assets/images/faces/face4.jpg" class="mr-2" alt="image">
+                  John Doe
+                </td>
+                <td>
+                  Salle des fêtes, <i>Eyang</i>
+                </td>
+                <td>
+                  <label class="badge badge-gradient-success">Réservée (en cours)</label>
+                </td>
+                <td>
+                  Mengue Julien
+                </td>
+                <td>
+                  Dec 5, 2017
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- <div class="row">
   <div class="col-md-5 grid-margin stretch-card">
     <div class="card">
         <ngb-datepicker #dp [(ngModel)]="date" (navigate)="date = $event.next" class="w-100 border-0"></ngb-datepicker>
@@ -398,4 +667,4 @@
       </div>
     </div>
   </div>
-</div>
+</div> -->
